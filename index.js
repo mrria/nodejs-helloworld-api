@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello, world!' });
+    const password = "123456456Abc";
+    res.json({ message: `${password }`});
     res.json({ message: 'Hello, world!' });
     res.json({ message: 'Hello, world!' });
 });
